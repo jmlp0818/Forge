@@ -1,0 +1,39 @@
+{
+  "app-id": "io.github.jmlp0818.Forge",
+  "runtime": "org.gnome.Platform",
+  "runtime-version": "51",
+  "sdk": "org.gnome.Sdk",
+  "command": "forge",
+  "finish-args": [
+    "--share=ipc",
+    "--socket=wayland",
+    "--socket=fallback-x11",
+    "--device=dri",
+    "--system-talk-name=org.freedesktop.PackageKit",
+    "--talk-name=org.kde.StatusNotifierWatcher",
+    "--talk-name=org.freedesktop.Flatpak"
+  ],
+  "modules": [
+    {
+      "name": "forge",
+      "buildsystem": "simple",
+      "build-commands": [
+        "python3 packaging.py install /app",
+        "python3 prepare_appstream.py /app"
+      ],
+      "sources": [
+        {
+          "type": "dir",
+          "path": ".",
+          "skip": [
+            "build",
+            "repo",
+            ".flatpak-builder",
+            "__pycache__",
+            "tests/__pycache__"
+          ]
+        }
+      ]
+    }
+  ]
+}

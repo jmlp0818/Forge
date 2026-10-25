@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+build/
+repo/
+.flatpak-builder/
+*.flatpak
+*.tar.gz
+*.zip
+work/
