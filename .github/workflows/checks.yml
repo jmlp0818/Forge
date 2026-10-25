@@ -1,0 +1,31 @@
+name: Source checks
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Fetch exact source revision
+        env:
+          FORGE_REVISION: ${{ github.sha }}
+        run: |
+          git init .
+          git remote add origin https://github.com/jmlp0818/Forge.git
+          git fetch --depth=1 origin "$FORGE_REVISION"
+          git checkout --detach FETCH_HEAD
+      - name: Install test dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3 python3-gi gir1.2-gtk-4.0 gir1.2-adw-1 xvfb xauth appstream desktop-file-utils
+      - name: Run safety and regression checks
+        run: xvfb-run -a python3 -m unittest discover -s tests -v
+      - name: Validate desktop metadata
+        run: |
+          appstreamcli validate --no-net data/io.github.jmlp0818.Forge.metainfo.xml
+          desktop-file-validate data/io.github.jmlp0818.Forge.desktop
+      - name: Verify deterministic source archive
+        run: |
+          python3 packaging.py source /tmp/source-a.tar.gz
+          python3 packaging.py source /tmp/source-b.tar.gz
+          cmp /tmp/source-a.tar.gz /tmp/source-b.tar.gz
