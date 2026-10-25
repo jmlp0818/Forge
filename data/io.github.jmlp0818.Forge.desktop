@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Forge
+Comment=Discover and manage system packages
+Exec=forge
+Icon=io.github.jmlp0818.Forge
+Terminal=false
+Categories=Settings;PackageManager;
+Keywords=dnf;rpm;packages;updates;
+StartupNotify=true

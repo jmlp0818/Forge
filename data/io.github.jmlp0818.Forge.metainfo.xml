@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.jmlp0818.Forge</id>
+  <name>Forge</name>
+  <summary>Discover apps and review software updates</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <developer id="io.github.jmlp0818"><name>jmlp0818 and Forge contributors</name></developer>
+  <description>
+    <p>Browse app suggestions, search configured repositories, and review native package and Flatpak updates in a desktop interface.</p>
+    <ul>
+      <li>Queue software changes and review them before applying</li>
+      <li>Check for updates while the application is running</li>
+      <li>Preview storage cleanup before choosing what to remove</li>
+    </ul>
+    <p>This is a preview build. Native package actions require the host PackageKit service. Host-command access is used for Flatpak management, setup and cleanup. Updates are not installed automatically.</p>
+  </description>
+  <launchable type="desktop-id">io.github.jmlp0818.Forge.desktop</launchable>
+  <url type="homepage">https://github.com/jmlp0818/Forge</url>
+  <url type="bugtracker">https://github.com/jmlp0818/Forge/issues</url>
+  <url type="vcs-browser">https://github.com/jmlp0818/Forge</url>
+  <screenshots>
+    <screenshot type="default"><caption>Discover app suggestions in demo mode</caption><image>https://raw.githubusercontent.com/jmlp0818/Forge/main/data/screenshots/discover.png</image></screenshot>
+    <screenshot><caption>Appearance and background preferences</caption><image>https://raw.githubusercontent.com/jmlp0818/Forge/main/data/screenshots/settings.png</image></screenshot>
+  </screenshots>
+  <content_rating type="oars-1.1" />
+  <releases>
+    <release version="0.15.0" date="2026-10-24" type="development"><description><p>Correct the project identity, strengthen cleanup checks, track interrupted operations, and publish buildable source releases.</p></description></release>
+    <release version="0.14.0" date="2026-10-24" />
+  </releases>
+</component>
