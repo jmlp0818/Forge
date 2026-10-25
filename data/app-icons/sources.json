@@ -1,0 +1,210 @@
+{
+  "calibre": {
+    "component": "calibre-gui.desktop",
+    "source": "Fedora AppStream icon cache",
+    "source_file": "calibre-gui.png",
+    "project_license": "GPL-3.0",
+    "homepage": "https://calibre-ebook.com/"
+  },
+  "obs-studio": {
+    "component": "com.obsproject.Studio",
+    "source": "Fedora AppStream icon cache",
+    "source_file": "com.obsproject.Studio.png",
+    "project_license": "GPL-2.0-or-later",
+    "homepage": "https://obsproject.com"
+  },
+  "mpv": {
+    "component": "io.mpv.mpv",
+    "source": "Fedora AppStream icon cache",
+    "source_file": "io.mpv.mpv.png",
+    "project_license": "GPL-2.0-or-later AND LGPL-2.0-or-later",
+    "homepage": "https://mpv.io/"
+  },
+  "libreoffice-calc": {
+    "component": "libreoffice-calc.desktop",
+    "source": "Fedora AppStream icon cache",
+    "source_file": "libreoffice-calc.png",
+    "project_license": "MPL-2.0",
+    "homepage": "http://www.libreoffice.org/discover/calc/"
+  },
+  "libreoffice-impress": {
+    "component": "libreoffice-impress.desktop",
+    "source": "Fedora AppStream icon cache",
+    "source_file": "libreoffice-impress.png",
+    "project_license": "MPL-2.0",
+    "homepage": "http://www.libreoffice.org/discover/impress/"
+  },
+  "libreoffice-writer": {
+    "component": "libreoffice-writer.desktop",
+    "source": "Fedora AppStream icon cache",
+    "source_file": "libreoffice-writer.png",
+    "project_license": "MPL-2.0",
+    "homepage": "http://www.libreoffice.org/discover/writer/"
+  },
+  "lutris": {
+    "component": "net.lutris.Lutris",
+    "source": "Fedora AppStream icon cache",
+    "source_file": "net.lutris.Lutris.png",
+    "project_license": "GPL-3.0-or-later",
+    "homepage": "https://lutris.net"
+  },
+  "supertuxkart": {
+    "component": "net.supertuxkart.SuperTuxKart",
+    "source": "Fedora AppStream icon cache",
+    "source_file": "net.supertuxkart.SuperTuxKart.png",
+    "project_license": "GPL-3.0+",
+    "homepage": "https://supertuxkart.net"
+  },
+  "audacity": {
+    "component": "org.audacityteam.Audacity",
+    "source": "Fedora AppStream icon cache",
+    "source_file": "org.audacityteam.Audacity.png",
+    "project_license": "GPL-3.0-only",
+    "homepage": "https://www.audacityteam.org/"
+  },
+  "blender": {
+    "component": "org.blender.Blender",
+    "source": "Fedora AppStream icon cache",
+    "source_file": "org.blender.Blender.png",
+    "project_license": "GPL-3.0",
+    "homepage": "https://www.blender.org"
+  },
+  "gimp": {
+    "component": "org.gimp.GIMP",
+    "source": "Fedora AppStream icon cache",
+    "source_file": "org.gimp.GIMP.png",
+    "project_license": "GPL-3.0+ AND LGPL-3.0+",
+    "homepage": "https://www.gimp.org/"
+  },
+  "evolution": {
+    "component": "org.gnome.Evolution.desktop",
+    "source": "Fedora AppStream icon cache",
+    "source_file": "org.gnome.Evolution.png",
+    "project_license": "GPL-2.0+ and GFDL-1.3",
+    "homepage": "https://gitlab.gnome.org/GNOME/evolution/-/wikis/home"
+  },
+  "meld": {
+    "component": "org.gnome.Meld.desktop",
+    "source": "Fedora AppStream icon cache",
+    "source_file": "org.gnome.Meld.png",
+    "project_license": "GPL-2.0+",
+    "homepage": "https://meld.app/"
+  },
+  "gnome-text-editor": {
+    "component": "org.gnome.TextEditor",
+    "source": "Fedora AppStream icon cache",
+    "source_file": "org.gnome.TextEditor.png",
+    "project_license": "GPL-3.0-or-later",
+    "homepage": "https://apps.gnome.org/TextEditor/"
+  },
+  "inkscape": {
+    "component": "org.inkscape.Inkscape",
+    "source": "Fedora AppStream icon cache",
+    "source_file": "org.inkscape.Inkscape.png",
+    "project_license": "GPL-2.0-or-later",
+    "homepage": "https://inkscape.org"
+  },
+  "filelight": {
+    "component": "org.kde.filelight.desktop",
+    "source": "Fedora AppStream icon cache",
+    "source_file": "org.kde.filelight.png",
+    "project_license": "GPL-2.0+",
+    "homepage": "https://apps.kde.org/filelight"
+  },
+  "krita": {
+    "component": "org.kde.krita",
+    "source": "Fedora AppStream icon cache",
+    "source_file": "org.kde.krita.png",
+    "project_license": "GPL-3.0-only",
+    "homepage": "https://www.krita.org/"
+  },
+  "okular": {
+    "component": "org.kde.okular.desktop",
+    "source": "Fedora AppStream icon cache",
+    "source_file": "org.kde.okular.png",
+    "project_license": "GPL-2.0+ and GFDL-1.3",
+    "homepage": "https://okular.kde.org/"
+  },
+  "keepassxc": {
+    "component": "org.keepassxc.KeePassXC.desktop",
+    "source": "Fedora AppStream icon cache",
+    "source_file": "org.keepassxc.KeePassXC.png",
+    "project_license": "GPL-3.0-or-later",
+    "homepage": "https://keepassxc.org"
+  },
+  "minetest": {
+    "component": "org.luanti.luanti",
+    "source": "Fedora AppStream icon cache",
+    "source_file": "org.luanti.luanti.png",
+    "project_license": "LGPL-2.1+ AND CC-BY-SA-3.0 AND MIT AND Apache-2.0",
+    "homepage": "https://www.luanti.org"
+  },
+  "firefox": {
+    "component": "org.mozilla.firefox",
+    "source": "Fedora AppStream icon cache",
+    "source_file": "org.mozilla.firefox.png",
+    "project_license": "GPL-3.0+",
+    "homepage": "https://www.mozilla.org"
+  },
+  "stellarium": {
+    "component": "org.stellarium.Stellarium",
+    "source": "Fedora AppStream icon cache",
+    "source_file": "org.stellarium.Stellarium.png",
+    "project_license": "GPL-2.0-or-later",
+    "homepage": "http://www.stellarium.org"
+  },
+  "vlc": {
+    "component": "org.videolan.vlc",
+    "source": "Fedora AppStream icon cache",
+    "source_file": "org.videolan.vlc.png",
+    "project_license": "GPL-2.0+",
+    "homepage": "https://www.videolan.org/vlc/"
+  },
+  "thunderbird": {
+    "component": "org.mozilla.thunderbird",
+    "source": "Flathub AppStream icon cache",
+    "source_file": "org.mozilla.thunderbird.png",
+    "project_license": "MPL-2.0",
+    "homepage": "https://www.thunderbird.net/"
+  },
+  "wesnoth": {
+    "component": "org.wesnoth.Wesnoth",
+    "source": "Flathub AppStream icon cache",
+    "source_file": "org.wesnoth.Wesnoth.png",
+    "project_license": "GPL-2.0-or-later",
+    "homepage": "https://www.wesnoth.org"
+  },
+  "tuxpaint": {
+    "component": "org.tuxpaint.Tuxpaint",
+    "source": "Flathub AppStream icon cache",
+    "source_file": "org.tuxpaint.Tuxpaint.png",
+    "project_license": "GPL-2.0+",
+    "homepage": "https://tuxpaint.org/"
+  },
+  "geogebra": {
+    "component": "org.geogebra.GeoGebra",
+    "source": "Flathub AppStream icon cache",
+    "source_file": "org.geogebra.GeoGebra.png",
+    "project_license": "LicenseRef-proprietary",
+    "homepage": "https://www.geogebra.org"
+  },
+  "neovim": {
+    "component": "io.neovim.nvim",
+    "source": "Flathub AppStream icon cache",
+    "source_file": "io.neovim.nvim.png",
+    "project_license": "Apache-2.0",
+    "homepage": "https://neovim.io/"
+  },
+  "orca": {
+    "component": "orca",
+    "source": "Installed upstream GNOME Orca application icon",
+    "homepage": "https://orca.gnome.org/",
+    "project_license": "LGPL-2.1-or-later AND CC-BY-SA-3.0"
+  },
+  "cmake": {
+    "component": "cmake-gui.desktop",
+    "source": "Fedora AppStream CMake project icon",
+    "project_license": "BSD-3-Clause AND MIT-open-group AND Zlib AND Apache-2.0",
+    "homepage": "http://www.cmake.org"
+  }
+}
