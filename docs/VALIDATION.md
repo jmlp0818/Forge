@@ -4,16 +4,17 @@ These results describe bounded checks, not certification or a complete security 
 
 | Check | Environment | Result / limit |
 | --- | --- | --- |
-| Unit and regression suite | Fedora host, Python 3.14 | 88 tests passed |
-| Unit and regression suite | Clean Ubuntu 24.04 container, Python 3.12, Xvfb | 88 tests run; passed with 1 skip: host PackageKit introspection unavailable |
-| Unit and regression suite | Clean Arch container, current packages, Xvfb | 88 tests run; 1 error and 1 skip: host PackageKit introspection unavailable. Tray PNG decoding failed because Glycin's nested bubblewrap loader could not start inside the container. This does not establish Arch desktop compatibility. |
+| Unit and regression suite | Fedora host, Python 3.14 | 90 tests passed |
+| Unit and regression suite | Clean Ubuntu 24.04 container, Python 3.12, Xvfb | 90 tests run; passed with 1 skip: host PackageKit introspection unavailable |
+| Unit and regression suite | Clean Arch container, current packages, Xvfb | 90 tests run; 1 error and 1 skip: host PackageKit introspection unavailable. Tray PNG decoding failed because Glycin's nested bubblewrap loader could not start inside the container. This does not establish Arch desktop compatibility. |
 | Cleanup protection | Temporary test homes only | Changed files, same-size changes with restored mtime, newly added files, symlink replacement, symlinked root ancestors, traversal and Trash links covered |
 | Failure handling | Mock PackageKit signals and real subprocess transport with simulated errors | Service replacement, cancelled-auth text, network-error text, process termination, retained interruption markers, success-marker removal covered; actual polkit cancellation and network outages during a real package transaction remain untested |
 | Flatpak lifecycle | Real temporary local repo and separate FLATPAK_USER_DIR | Fixture install, pending update, scoped update, recheck and uninstall passed; no real user app was changed |
 | Packaged Forge | Separate temporary Flatpak installation, system GNOME Platform 51 | Installed bundle identified as 0.15.0 / io.github.jmlp0818.Forge; GUI launched/exited in demo mode |
 | Desktop metadata | appstreamcli and desktop-file-validate | Validation passed. One pedantic hint about uppercase in the reverse-DNS app ID; not a validation error |
 | Screenshots | Current source demo mode with temporary config/cache/state | Discover and Settings captured; no package changes |
-| Source packaging | Deterministic ordered tar/gzip, fixed timestamps/ownership | Archive repeatability and clean extraction/build are release gates |
+| Hosted automation | GitHub Actions workflow added | No successful hosted run yet; the first job did not start due to an account-level restriction. Local results below are the evidence for this preview. |
+| Source packaging | Deterministic ordered tar/gzip, fixed timestamps/ownership | Repeated source archives matched; clean extraction passed 90 tests and rebuilt successfully. Source roundtrip bytes matched; installer bytes differed between same-host builds, so bit-for-bit bundle reproducibility is not established |
 | Secret/path review | Release source tree | Checked common credential patterns and personal absolute paths; no matches in released source |
 
 Commands:
